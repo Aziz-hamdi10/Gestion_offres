@@ -1,0 +1,234 @@
+/*
+
+TemplateMo 577 Liberty Market
+
+https://templatemo.com/tm-577-liberty-market
+
+*/
+
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+01. font & reset css
+02. reset
+03. global styles
+04. header
+05. banner
+06. features
+07. testimonials
+08. contact
+09. footer
+
+--------------------------------------------- */
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #fff;
+}
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+Global Styles
+--------------------------------------------- 
+*/
+
+
+
+
+
+
+
+.section-heading {
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.section-heading .line-dec {
+  width: 100px;
+  height: 2px;
+  background-color: #7453fc;
+  margin: 0 auto 30px auto;
+}
+
+.section-heading h2 {
+  margin-top: 10px;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.section-heading h2 em {
+  color: #7453fc;
+  font-style: normal;
+}
+.currently-market {
+  background-image: url(dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 120px 0px;
+  position: relative;
+}
+
+.currently-market-item {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.currently-market .section-heading {
+  text-align: left;
+}
+
+.currently-market .section-heading .line-dec {
+  margin-left: 0;
+}
+
+.currently-market .filters {
+  text-align: right;
+}
+
+.currently-market .filters ul li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.currently-market .filters ul li:first-child {
+  margin-left: 0px;
+}
+
+
+.currently-market .filters ul li.active,
+.currently-market .filters ul li:hover {
+  background-color: #7453fc;
+}
+
+.currently-market .item {
+  background-color: #282b2f;
+  border: 1px solid #404245;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.currently-market .item .right-content {
+  margin-left: 30px;
+  width: 100%;
+}
+
+.currently-market .item .right-content h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.currently-market .item .right-content span.author {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.currently-market .item .right-content span.author img {
+  margin-right: 15px;
+}
+
+.currently-market .item .right-content span.author h6 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.currently-market .item .right-content span.author a {
+  color: #7453fc;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.currently-market .item span {
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.currently-market .item .line-dec {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.currently-market .item span strong {
+  font-size: 20px;
+}
+
+.currently-market .item span.bid {
+  line-height: 35px;
+}
+
+.currently-market .item span.bid em,
+.currently-market .item span.ends em {
+  font-style: normal;
+}
+
+.currently-market .item span.ends {
+  text-align: right;
+  float: right;
+  line-height: 35px;
+}
+
+.currently-market .item .text-button {
+  margin-top: 40px;
+}
+
+.currently-market .item .text-button a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #7453fc;
+  border-bottom: 1px solid #7453fc;
+}
+#titre{
+color: white;
+}
+#of{
+   
+width: 1200px;
+}
+#nav
+{ width: 1300px;
+
+}

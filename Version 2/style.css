@@ -1,0 +1,284 @@
+body {
+	margin:  0;
+    background-color: #666;
+	
+}
+.required{
+	color: red;
+	margin-left: 5px;
+}
+.page-content {   /*mta3 l page lkoll*/
+	width: 100%;
+	margin:  0 auto;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-o-justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	align-items: top;
+	-o-align-items: top;
+	-ms-align-items: top;
+	-moz-align-items: top;
+	-webkit-align-items: top;
+    background-image: -moz-linear-gradient( 136deg, rgb(105, 28, 182) 0%, rgb(63,43,150) 100%);
+    background-image: -webkit-linear-gradient( 136deg, rgb(124, 81, 167)  0%, rgb(63,43,150) 100%);
+    background-image: -ms-linear-gradient( 136deg, rgb(176, 116, 235)  0%, rgb(63,43,150) 100%);
+}
+.form-v1-content   {  /*mta3 l form lkoll*/
+	background: #fff;
+	width: 50%;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	-ms-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 80PX;	
+	margin-bottom: 80PX;
+
+}
+h1 ,h3{
+	text-align: center;
+color: #4fab40;}
+.etat{
+    font-size: 15px;
+    font-weight: 400;
+	
+	margin-bottom: 20PX;
+
+}
+.etat legend {
+	font-size: 11px;
+	font-weight: 700;
+	color: #999;}
+.photo{
+	font-size: 15px;
+	font-weight: 400;
+	float: left;
+	width: 90%;
+	margin-bottom: 40PX;
+
+}
+.photo legend {
+	font-size: 11px;
+	font-weight: 700;
+	color: #999;
+}
+.diplomes legend {
+	font-size: 11px;
+	font-weight: 700;
+	color: #999;
+	margin-bottom: 20PX;
+
+}
+.diplomes{margin-bottom: 20PX;}
+p{	font-size: 15px;
+	font-weight: 700;
+	color: #999;
+	margin-bottom: 50PX;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+}
+	
+fieldset select{margin: 10px;}
+.etat fieldset {border-color: #dbcdcd62;
+	border-radius: 5PX;}
+.photo fieldset {border-color: #dbcdcd62;
+	border-radius: 5PX;}
+.diplomes fieldset {border-color: #dbcdcd62;
+	border-radius: 5PX;}
+
+
+h3 {
+	font-size: 22px;
+    color: #4fab40;
+    font-weight: 700;
+    margin: 0;
+	justify-self: center;
+	margin-bottom: 30PX;
+	margin-top: 30PX;
+}
+
+.form-register .content .inner p {
+	color: #666;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.inner .form-row {
+    display: flex;
+    margin: 0 -10px;
+    position: relative;
+}
+.inner .form-row .form-holder {
+    width: 50%;
+    padding: 0 10px;
+    margin-bottom: 17px;
+    position: relative;
+}
+.inner .form-row .form-holder.form-holder-1 {
+    width: 65.3%;
+}
+.inner .form-row .form-holder.form-holder-2 {
+	width: 100%;
+	position: relative;
+}
+.inner .form-row .form-holder.form-holder-3 {
+	margin-bottom: 0;
+}
+.inner .form-row .form-row-inner {
+	position: relative;
+}
+.inner .form-row #radio {
+    margin-top: -5px;
+    margin-left: 7px;
+}
+.inner .form-row #checkbox {
+	margin: 10px 0 28px 11px;
+    font-size: 15px;
+    color: #666;
+    font-weight: 400;
+}
+.inner .form-row .form-holder label.special-label {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding-right: 0px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+#form-total{
+	margin: 100PX;
+	margin-top: 20PX;
+}
+.inner .form-row .form-holder fieldset {
+	border:  2px solid #e5e5e5;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    padding: 0 20px;
+}
+.inner .form-row .form-holder legend {
+	font-size: 11px;
+	font-weight: 700;
+	color: #999;
+}
+.inner .form-row .form-holder input,
+.inner .form-row .form-holder select {
+    width: 100%;
+    padding: 5px 0px 13px;
+    border: none;
+    appearance: unset;
+    -moz-appearance: unset;
+    -webkit-appearance: unset;
+    -o-appearance: unset;
+    -ms-appearance: unset;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+.inner .form-row .form-holder input {
+    color: #333;
+}
+.inner .form-row .form-holder input#find_bank {
+	border:  2px solid #e5e5e5;
+	padding: 11px 20px;
+}
+.inner .form-row .form-holder input.radio {
+	display: none;
+}
+.inner .form-row-total label {
+    width: 146.5px;
+    height: 130px;
+    display: block;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.inner .form-row-total label img {
+	padding-top: 25px;
+}
+.inner .form-row-total .label-above {
+	border-bottom:  1px solid #e5e5e5;
+}
+
+.inner .form-row.form-row-date .form-holder select {
+    float: left;
+    width: 20.6%;
+    margin-right: 15px;
+}
+.inner .form-row.form-row-date .form-holder select#year {
+    width: 27.28%;
+}
+.inner .form-row .form-holder input::-webkit-input-placeholder { 
+	color: #666;
+	font-size: 14px;
+}
+.inner .form-row .form-holder input::-moz-placeholder { 
+	color: #666;
+	font-size: 14px;
+}
+.inner .form-row .form-holder input:-ms-input-placeholder { 
+	color: #666;
+	font-size: 14px;
+}
+.button {
+	margin: 40px;
+	margin-top: 0%;
+	justify-content: space-between ;
+	display: flex;
+    justify-content: center;
+	border-color: #4fab40;
+	font-size: 18px;
+	border: none;
+
+
+	}
+.button > input{
+	border-radius: 20px;
+	background-color: #4fab40;
+	width: auto;
+	height: 50px;
+	margin-left: 15px;
+	font-size: medium;
+	color: rgb(246, 246, 243);
+	cursor: pointer;
+	padding: 15PX;
+
+}
+.button > input:hover{
+	background: #36782c;
+	border: none;
+
+}
